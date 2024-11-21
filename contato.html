@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css"> <!-- Referência ao arquivo CSS externo -->
+    <link rel="icon" href="images/contato.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1> Claudia Nunes Gabriela Soares e Silva</h1>
+    </header>
+    <div class="nav-back-contato">
+        <a href="index.html" class="btn-contato">Voltar para a Página Principal</a>
+    </div>
+
+    <main>
+        <section>
+            <form>
+                <h2 class="h2">Me chame para trabalhar com você!</h2>
+                <label for="name">NOME:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">EMAIL:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">TELEFONE:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="message">DESCRIÇÃO DETALHADA DO INTERESSE:</label><br>
+                <textarea id="message" name="message" rows="5" ></textarea><br><br>
+
+                <fieldset>
+                    <legend>Informações sobre a vaga:</legend>
+                    <label><input type="checkbox" name="preferencia1" value="opcao1"> Vaga disponível para trabalho remoto</label><br>
+                    <label><input type="checkbox" name="preferencia2" value="opcao2"> Necessário disponibilidade para viagens</label><br>
+                    <label><input type="checkbox" name="preferencia3" value="opcao3"> Flexibilidade de horário</label><br>
+                    <label><input type="checkbox" name="preferencia4" value="opcao4"> Vaga temporária e/ou projeto</label><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Média salarial:</legend>
+                    <label><input type="radio" name="pretensao" value="1"> Até R$ 3.000,00</label><br>
+                    <label><input type="radio" name="pretensao" value="2"> De R$ 3.000,00 a R$ 6.000,00</label><br>
+                    <label><input type="radio" name="pretensao" value="3"> Acima de R$ 6.000,00</label><br>
+                    <label><input type="radio" name="pretensao" value="4"> A combinar</label><br>
+                </fieldset>
+                
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Claudia N. G. S. e S. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

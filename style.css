@@ -1,0 +1,239 @@
+ /* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex; /* Usando flexbox para o cabeçalho */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 20px;
+    background-color: #5B3771;
+    color: white;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    border-radius: 75px;
+    margin-left: 20px; /* Espaçamento entre o nome e a imagem */
+}
+main {
+    max-width: 800px; /* Limita a largura do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Adiciona espaçamento interno ao main */
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0; /* Margem entre seções */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #5B3771;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*botões de navegação*/
+nav {
+    margin: 20px 0;
+    margin-top: 45px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: #9D5D94;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #22223B;
+}
+
+/* Botão página de contato */
+.nav-back-contato {
+    text-align: center; /* Centraliza o botão */
+    margin: 45px ; /* Adiciona espaço acima e abaixo do botão */
+    margin-bottom: 10px;
+}
+
+.nav-back-contato a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: #9D5D94;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px auto; /* Centraliza o botão */
+}
+
+.nav-back-contato a:hover {
+    background-color: #22223B;
+}
+
+/*botão pagina galeria*/
+.nav-back-galeria {
+    text-align: center; /* Centraliza o botão */
+    margin: 45px ; /* Adiciona espaço acima e abaixo do botão */
+    margin-top: 0;
+}
+
+.nav-back-galeria a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: #9D5D94;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-back-galeria a:hover {
+    background-color: #22223B;
+}
+
+/* Estilo para os botões da página Index */
+.btn-index {
+    margin-right: 20px;
+}
+
+
+
+/* Estilos para links normais (email e telefone) */
+a.email, a.telefone {
+    color: black; /* Cor padrão para links de email e telefone */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a.email:hover, a.telefone:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos específicos para o mapa */
+.map-container {
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-direction: column;
+    margin: 20px 0; /* Margem acima e abaixo do mapa */
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+    margin: 20px auto;
+}
+
+.map-container h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Espaçamento entre o título e o iframe */
+}
+
+.map-container iframe {
+    display: block;
+    margin: 0 auto; /* Centraliza o iframe */
+    border: 0; /* Remove a borda do iframe */
+}
+
+/* Estilos específicos para o título com imagem */
+.titulo {
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Alinha verticalmente */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.titulo img {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.table {
+    width: 100%; /* a tabela ocupa toda a largura da página */
+}
+
+.td {
+    padding: 20px; /* Adiciona espaçamento ao redor de cada célula */
+    text-align: center; /* Centraliza o texto e as imagens dentro das células */
+}
+
+.membro-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px; /* Espaço ao redor da imagem */
+    transition: transform 0.3s; /* Suaviza a transição */
+}
+
+.membro-imagem:hover {
+    transform: scale(1.6); /* Aumenta a imagem  quando o cursor passa por cima */
+}
+
+.h2 {
+    text-align: center;
+}
+
+/* Estilos da página de contato */
+form label, form legend {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;/*cor do botao de enviar ao passar o mouse*/
+}
+
+legend {
+    font-size: 25px; /* Define o tamanho do titulo do fieldset */
+    margin-bottom: 10px; /* Espaço abaixo do titulo para separar do conteúdo */
+}
+
+fieldset {
+    margin-bottom: 20px; /* Adiciona 20 pixels de espaço abaixo de cada fieldset */
+    padding: 15px; /* Adiciona um pouco de espaço interno para o fieldset */
+    border-radius: 5px; /* arredonda os cantos do fieldset */
+    border: 1px solid #ccc; /*  define uma borda para o fieldset */
+}
+
+label {
+    display: inline-flex; /* Mantém o layout em linha */
+    align-items: center; /* Alinha verticalmente no centro */
+    margin-bottom: 10px; /* Espaço entre as opções */
+    white-space: nowrap; /* Impede que o texto quebre de linha */
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Espaçamento entre o botão de rádio e o texto */
+}
+
