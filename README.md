@@ -6,7 +6,7 @@ Essa aplicação é um modelo de **Currículo Vitae** para uma usuária fictíci
 ## Como ela funciona?  
 O projeto consiste em três páginas principais:  
 1. **Página Inicial**: Apresentação geral da usuária fictícia, incluindo foto e resumo profissional.  
-2. **Experiências**: Detalha as experiências e habilidades da usuária.  
+2. **Galeria**: Inclui um avatar para cada membro da equipe e um conteúdo embutido para cumprir os requisitos da tarefa.  
 3. **Contato**: Possui um formulário para possíveis interessados entrarem em contato.  
 
 ### Estrutura:  
