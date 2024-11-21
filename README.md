@@ -16,7 +16,7 @@ O projeto consiste em três páginas principais:
 ## Como usar?  
 1. **Clone o repositório**: Baixe o repositório para o seu computador usando o comando:  
    ```bash
-   git clone https://github.com/ThaisOliveira0/curriculo_vitae.git
+   git clone https://github.com/ThaisOliveira0/Curriculo_vitae.git
    
 2. **Abra o arquivo index.html:** Use um navegador de sua escolha para visualizar a aplicação.
 3. **Navegue pelas páginas:** Utilize os links de navegação para explorar as seções do currículo.
