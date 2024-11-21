@@ -22,7 +22,8 @@ O projeto consiste em três páginas principais:
 3. **Navegue pelas páginas:** Utilize os links de navegação para explorar as seções do currículo.
 
 ##Tecnologias Usadas:
-• **HTML** - Estrutura básica da página
+• **HTML** - Estrutura básica da página 
+
 • **CSS** - Design, cores e layout.
 
 ##Quer contribuir?
