@@ -21,10 +21,9 @@ O projeto consiste em três páginas principais:
 2. **Abra o arquivo index.html:** Use um navegador de sua escolha para visualizar a aplicação.
 3. **Navegue pelas páginas:** Utilize os links de navegação para explorar as seções do currículo.
 
-##Tecnologias Usadas:
+## Tecnologias Usadas:
 • **HTML** - Estrutura básica da página 
-
 • **CSS** - Design, cores e layout.
 
-##Quer contribuir?
+## Quer contribuir?
 Se você tem sugestões ou melhorias para o projeto, fique à vontade para abrir um pull request ou relatar problemas na seção de issues!
